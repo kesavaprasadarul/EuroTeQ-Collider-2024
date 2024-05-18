@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "lite-server": "^2.6.1",
+    "maplibre-gl": "^4.2.0"
+  },
+  "scripts": { 
+    "lite": "lite-server --port 10001", 
+    "start": "npm run lite" 
+  }
+}

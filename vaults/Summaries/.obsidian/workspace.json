@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "6e06a40d0c1e79a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea1086cb807a7c77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51a55cd0a4fae776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts/CO2 Estimation Models.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47b5164a2cb197ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts/CO2 Estimation Models - Part 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50a0fb6de0230a3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "46e6336f791e2628",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58dc721e6caa77fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dcda545c07fefe7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bc99ac01317e617b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9fd2168c4238fd0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a988879d4e4d9ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b502a2f75523351",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Concepts/CO2 Estimation Models.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d42af469429f737",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Concepts/CO2 Estimation Models.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0140f8ab0f29a27f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c6536d76b6f446d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Concepts/CO2 Estimation Models.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "51a55cd0a4fae776",
+  "lastOpenFiles": [
+    "Concepts/CO2 Estimation Models - Part 2.md",
+    "Concepts/CO2 Estimation Models.md",
+    "Concepts/Routing Theories.md",
+    "Welcome.md",
+    "Concepts"
+  ]
+}

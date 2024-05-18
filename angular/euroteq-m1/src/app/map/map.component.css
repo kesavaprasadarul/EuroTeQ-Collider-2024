@@ -1,0 +1,92 @@
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 77px);
+  /* calculate height of the screen minus the heading */
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.watermark {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 999;
+}
+
+.floating {
+  position: absolute;
+  display: inline-flex;
+  align-items: start;
+  left: 16px;
+  top: 16px;
+  z-index: 999;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.textbox-floating {
+  resize: none;
+  width: 500px;
+  height: 48px;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.textbox-floating.top {
+  -moz-border-radius: 8px 8px 0px 0px;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  -o-border-radius: 8px 8px 0px 0px;
+  -ms-border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
+  border: 0;
+}
+
+.textbox-floating.bottom {
+  -moz-border-radius: 0px 0px 8px 8px;
+  -webkit-border-radius: 0px 0px 8px 8px;
+  -o-border-radius: 0px 0px 8px 8px;
+  -ms-border-radius: 0px 0px 8px 8px;
+  border-radius: 0px 0px 8px 8px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border: 1;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-width: 1px;
+}
+
+.button-navigate {
+  position: absolute;
+  height: 64px;
+  width: 64px;
+  top: 16px;
+  left: 492px;
+  border: 0;
+  background-color: #42A5F5;
+  color: white;
+  font-size: 16px;
+  -moz-border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -o-border-radius: 32px;
+  -ms-border-radius: 32px;
+  border-radius: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

@@ -1,0 +1,9 @@
+
+<div class="map-wrap">
+    <form class="floating" >
+        <input [(ngModel)]="startValuePayload.locationString" name="startpointbox" class="textbox-floating top" placeholder="Search for start locations"/>
+        <input [(ngModel)]="endValuePayload.locationString" name="endpointbox" class="textbox-floating bottom" placeholder="Search for end locations"/>
+        <button (click)="buttonClick($event)" class="button-navigate">GO</button>  
+    </form>
+    <div class="map" #map></div>
+</div>
